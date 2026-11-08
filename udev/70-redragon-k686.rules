@@ -1,0 +1,3 @@
+# Redragon K686 Eisa magnetic keyboard: WebHID access for the web driver.
+# Keep "==" on KERNEL/ATTRS (checks). A single "=" makes udev drop the line.
+KERNEL=="hidraw*", ATTRS{product}=="K686BG-RGB-M", TAG+="uaccess"
